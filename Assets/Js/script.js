@@ -51,3 +51,12 @@ new Chart(ctx4, {
 });
 
 
+
+
+// burger menyu
+
+const ElBurger = document.querySelector(".burger");
+
+ElBurger.addEventListener("click", () => {
+    ElBurger.classList.toggle("active");
+})
